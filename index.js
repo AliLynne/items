@@ -1,4 +1,4 @@
-const app = require('./app');
+const app = require('./src/app');
 
 // listen for incoming http requests from port 3050 on our local machine
 app.listen(3050, () => {
